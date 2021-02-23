@@ -1,0 +1,171 @@
+.content {
+    &_2 {
+        padding-top: 45px;
+        height: 1360px;
+        background-color:#EAEAEA;
+    }
+    &_3 {
+        height: 2650px;
+        background-color:#EAEAEA;
+        padding-top: 45px;
+    }
+    &_4 {
+        height: 1100px;
+        background-color:#EAEAEA;
+        padding-top: 45px;
+    }
+    &_5 {
+        padding-top: 45px;
+        height: 1475px;
+        background-color:#EAEAEA;
+    }
+    &_6 {
+        padding-top: 45px;
+        height: 1000px;
+        background-color:#EAEAEA;
+    }
+    &_7 {
+        padding-top: 45px;
+        height: 2150px;
+        background-color:#EAEAEA;
+    }
+}
+    
+
+
+.hentry {
+    margin: 0 0 4.5em;
+    margin-bottom: 4rem;
+    padding: 20px 48px;
+    background-color: #FFFFFF;
+    &_1{
+        margin: 0 0 4.5em;
+        margin-bottom: 4rem;
+        padding: 20px 48px 0 48px;
+        background-color: #FFFFFF;  
+    }
+    &_new {
+        margin: none;
+        margin-bottom: none;
+        padding: 20px 48px;
+        background-color: #FFFFFF;
+    }
+}
+.entry {
+    &-title {
+        font-size: 2em;
+        margin: 0 0 0.5em;
+        line-height: 1.5;
+        text-align: center;
+        a {
+            color: #444444;
+        }
+        }
+        &-content {
+            margin: 1.5em 0 0
+        }
+}
+p {
+    color: #444444;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 1.5em;
+    width: 100%;
+
+}
+td {
+    border: 1px solid #EAEAEA;
+    padding: 6px 10px;
+    img {
+        display: block;
+        margin: auto;
+        max-width: 360px;
+        padding: 3px 7px 3px 10px;
+    }
+}
+.aligncenter {
+    width: 900px;
+    height: 601px;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+strong {
+    font-weight: bold;
+    img {
+        display: inline;
+        float: left;
+        margin-right: 1.5em;
+        height: 165px;
+        width: 270px;
+    }
+}
+.service {
+    border-color: #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 1.5em;
+    width: 100%
+}
+.td_1 {
+    border-color: #000000;
+    background: #ccc;
+}
+.img{
+    &_about_us {
+        margin: auto;
+        width: 675px;
+        height: 430px;
+    }
+    &_road {
+        display: block;
+        width: 540px;
+        height: 415px;
+    }
+}
+.travel {
+    padding: 30px 15px 0 15px;
+    &_packages {
+        display: flex;
+    }
+    &_offer {
+        padding: 0 15px;
+        font-size: 20px;
+        &_1 {
+            margin-bottom: none;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+}
+.td_width {
+    width: 404px;
+}
+hr {
+    margin-top: 80px;
+    color:black;
+    font-size: 1px;
+}
+.maps {
+    &_1 {
+        display: flex;
+        img {
+            width: 570px;
+            height: 414px;
+            padding: 0 0 14px 34px;
+        }
+    }
+    &_2 {
+        display: flex;
+        img {
+            width: 570px;
+            height: 414px;
+            padding: 0 0 14px 34px;
+        }
+    }
+}

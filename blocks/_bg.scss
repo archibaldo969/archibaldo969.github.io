@@ -1,0 +1,60 @@
+#page {
+    position: relative;
+    z-index: 820;
+}
+#parallax-bg {
+    background-image: url(../img/BTR.jpg);
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-attachment: scroll;
+    position: fixed;
+    max-width: 1900px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    .img_1232 {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 40%;
+        }
+    }
+}
+#masthead {
+    margin-bottom: 450px;
+}
+#featured_pages {
+    padding-bottom: 15px;
+    text-align: center;
+    .entry-title {
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 15px; 
+        font-size: 14px;
+    }
+    .page_text_container {
+        background-color: #FFFFFF;
+        padding: 3rem 3rem 2rem;
+    }
+    a.more-link {
+        font-size: 14px;
+        border: 1px solid #EAEAEA;
+        border-radius: 4px;
+        color: #555555;
+        padding: 4px 10px;
+    }
+}
+#content {
+    height: 610px;
+    background-color: #EAEAEA;
+    padding-top: 45px;
+    margin-bottom: 60px;
+}
+#primary {
+    float: left;
+    height: 700px;
+}

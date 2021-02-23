@@ -1,0 +1,32 @@
+.clearfix {
+    display: block;
+}
+
+.tg_one_third {
+    float: left;
+    width: 360px;
+    margin: 0 3.284072% 3rem 0; 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.page_text_container {
+    background-color: #FFFFFF;
+    padding: 3rem 3rem 2rem;
+    img {
+        vertical-align: top;
+        margin-bottom: 2rem;
+        width: 275px; 
+    }
+}
+.entry-title {
+    line-height: 1;
+    margin-bottom: 10px;
+    margin: 0 0 0.5em;
+    font-size: 24px;
+    a {
+        color: #444444;
+        text-decoration: none;
+    }
+}
